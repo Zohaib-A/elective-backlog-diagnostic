@@ -1,0 +1,238 @@
+# RTT Full CSV data files for the Elective Backlog Diagnostic
+# Window: September 2023 to August 2026 (36 months)
+# Source pages: https://www.england.nhs.uk/statistics/statistical-work-areas/rtt-waiting-times/
+# Links collected 2026-11-04. When NHS England revises a month, replace its url and
+# version; download.py will re-fetch it because the hash changes.
+#
+# period:   reporting month (YYYY-MM)
+# fy_page:  financial-year page the link sits on
+# uploaded: year-month of upload, taken from the URL path
+# version:  'revised' if NHS England has republished the file, otherwise 'original'
+
+dataset: rtt_full_csv
+window:
+  start: 2023-09
+  end: 2026-08
+
+files:
+  - period: 2023-09
+    fy_page: 2023-24
+    uploaded: 2024-01
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2024/01/Full-CSV-data-file-Sep23-ZIP-3654K-revised.zip
+
+  - period: 2023-10
+    fy_page: 2023-24
+    uploaded: 2024-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2024/07/Full-CSV-data-file-Oct23-ZIP-3928K-revised.zip
+
+  - period: 2023-11
+    fy_page: 2023-24
+    uploaded: 2024-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2024/07/Full-CSV-data-file-Nov23-ZIP-3952K-revised.zip
+
+  - period: 2023-12
+    fy_page: 2023-24
+    uploaded: 2024-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2024/07/Full-CSV-data-file-Dec23-ZIP-3800K-revised.zip
+
+  - period: 2024-01
+    fy_page: 2023-24
+    uploaded: 2024-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2024/07/Full-CSV-data-file-Jan24-ZIP-3943K-revised.zip
+
+  - period: 2024-02
+    fy_page: 2023-24
+    uploaded: 2024-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2024/07/Full-CSV-data-file-Feb24-ZIP-3881K-revised.zip
+
+  - period: 2024-03
+    fy_page: 2023-24
+    uploaded: 2024-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2024/07/Full-CSV-data-file-Mar24-ZIP-3832K-revised.zip
+
+  - period: 2024-04
+    fy_page: 2024-25
+    uploaded: 2025-02
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/02/Full-CSV-data-file-Apr24-ZIP-4M-revised.zip
+
+  - period: 2024-05
+    fy_page: 2024-25
+    uploaded: 2025-02
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/02/Full-CSV-data-file-May24-ZIP-4M-revised.zip
+
+  - period: 2024-06
+    fy_page: 2024-25
+    uploaded: 2025-02
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/02/Full-CSV-data-file-Jun24-ZIP-4M-revised.zip
+
+  - period: 2024-07
+    fy_page: 2024-25
+    uploaded: 2025-02
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/02/Full-CSV-data-file-Jul24-ZIP-4M-revised.zip
+
+  - period: 2024-08
+    fy_page: 2024-25
+    uploaded: 2025-02
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/02/Full-CSV-data-file-Aug24-ZIP-4M-revised.zip
+
+  - period: 2024-09
+    fy_page: 2024-25
+    uploaded: 2025-02
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/02/Full-CSV-data-file-Sep24-ZIP-4M-revised.zip
+
+  - period: 2024-10
+    fy_page: 2024-25
+    uploaded: 2025-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/Full-CSV-data-file-Oct24-ZIP-4M-revised.zip
+
+  - period: 2024-11
+    fy_page: 2024-25
+    uploaded: 2025-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/Full-CSV-data-file-Nov24-ZIP-4M-revised.zip
+
+  - period: 2024-12
+    fy_page: 2024-25
+    uploaded: 2025-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/Full-CSV-data-file-Dec24-ZIP-4M-revised.zip
+
+  - period: 2025-01
+    fy_page: 2024-25
+    uploaded: 2025-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/Full-CSV-data-file-Jan25-ZIP-4M-revised.zip
+
+  - period: 2025-02
+    fy_page: 2024-25
+    uploaded: 2025-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/Full-CSV-data-file-Feb25-ZIP-4M-revised.zip
+
+  - period: 2025-03
+    fy_page: 2024-25
+    uploaded: 2025-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/07/Full-CSV-data-file-Mar25-ZIP-4M-revised.zip
+
+  - period: 2025-04
+    fy_page: 2025-26
+    uploaded: 2026-02
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/02/Full-CSV-data-file-Apr25-ZIP-4M-revised.zip
+
+  - period: 2025-05
+    fy_page: 2025-26
+    uploaded: 2026-02
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/02/Full-CSV-data-file-May25-ZIP-4M-revised.zip
+
+  - period: 2025-06
+    fy_page: 2025-26
+    uploaded: 2026-02
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/02/Full-CSV-data-file-Jun25-ZIP-4M-revised.zip
+
+  - period: 2025-07
+    fy_page: 2025-26
+    uploaded: 2026-02
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/02/Full-CSV-data-file-Jul25-ZIP-4M-revised-2.zip
+
+  - period: 2025-08
+    fy_page: 2025-26
+    uploaded: 2026-02
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/02/Full-CSV-data-file-Aug25-ZIP-4M-revised-2.zip
+
+  - period: 2025-09
+    fy_page: 2025-26
+    uploaded: 2026-02
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/02/Full-CSV-data-file-Sep25-ZIP-4M-revised.zip
+
+  - period: 2025-10
+    fy_page: 2025-26
+    uploaded: 2025-12
+    version: original
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2025/12/Full-CSV-data-file-Oct25-ZIP-4M-SrRW6y.zip
+
+  - period: 2025-11
+    fy_page: 2025-26
+    uploaded: 2026-01
+    version: original
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/01/Full-CSV-data-file-Nov25-ZIP-4M-1Xmjkk.zip
+
+  - period: 2025-12
+    fy_page: 2025-26
+    uploaded: 2026-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/07/Full-CSV-data-file-Dec25-ZIP-3M-revised.zip
+
+  - period: 2026-01
+    fy_page: 2025-26
+    uploaded: 2026-03
+    version: original
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/03/Full-CSV-data-file-Jan26-ZIP-4M-WL5BiP.zip
+
+  - period: 2026-02
+    fy_page: 2025-26
+    uploaded: 2026-04
+    version: original
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/04/Full-CSV-data-file-Feb26-ZIP-4M-9j03fJT.zip
+
+  - period: 2026-03
+    fy_page: 2025-26
+    uploaded: 2026-07
+    version: revised
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/07/Full-CSV-data-file-Mar26-ZIP-3M-revised.zip
+
+  - period: 2026-04
+    fy_page: 2026-27
+    uploaded: 2026-06
+    version: original
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/06/Full-CSV-data-file-Apr26-ZIP-3M-X7gGnn.zip
+
+  - period: 2026-05
+    fy_page: 2026-27
+    uploaded: 2026-07
+    version: original
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/07/Full-CSV-data-file-May26-ZIP-3M-3jBgba.zip
+
+  - period: 2026-06
+    fy_page: 2026-27
+    uploaded: 2026-08
+    version: original
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/08/Full-CSV-data-file-Jun26-ZIP-3M-6jPlxd.zip
+
+  - period: 2026-07
+    fy_page: 2026-27
+    uploaded: 2026-09
+    version: original
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/09/Full-CSV-data-file-Jul26-ZIP-4M-97ylx5.zip
+
+  - period: 2026-08
+    fy_page: 2026-27
+    uploaded: 2026-10
+    version: original
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/10/Full-CSV-data-file-Aug26-ZIP-3M-vjgRdG.zip
+
+# Reference file for Week 1 validation (latest edition covers the whole window)
+reference:
+  missing_data_adjustments:
+    as_of: 2026-08
+    url: https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/10/Missing-data-adjustments-to-Aug26-XLSX-109K-vjgRdG.xlsx
