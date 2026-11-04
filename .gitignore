@@ -1,0 +1,17 @@
+# Derived data: rebuilt from data/raw by `uv run python build.py`
+data/interim/
+data/processed/
+*.duckdb
+*.duckdb.wal
+*.part
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+Thumbs.db
+.DS_Store
