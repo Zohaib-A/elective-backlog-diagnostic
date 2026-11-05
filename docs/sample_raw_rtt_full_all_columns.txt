@@ -1,0 +1,125 @@
+SELECT * FROM raw.rtt_full LIMIT 5  -- all 122 columns, one line per column, one value column per row
+
+  #  column                                  row 1  row 2  row 3  row 4  row 5
+  1  Period                                  RTT-September-2023  |  RTT-September-2023  |  RTT-September-2023  |  RTT-September-2023  |  RTT-September-2023
+  2  Provider Parent Org Code                QE1  |  QE1  |  QE1  |  QE1  |  QE1
+  3  Provider Parent Name                    NHS LANCASHIRE AND SOUTH CUMBRIA INTEGRATED CARE BOARD  |  NHS LANCASHIRE AND SOUTH CUMBRIA INTEGRATED CARE BOARD  |  NHS LANCASHIRE AND SOUTH CUMBRIA INTEGRATED CARE BOARD  |  NHS LANCASHIRE AND SOUTH CUMBRIA INTEGRATED CARE BOARD  |  NHS LANCASHIRE AND SOUTH CUMBRIA INTEGRATED CARE BOARD
+  4  Provider Org Code                       A4M8P  |  A4M8P  |  A4M8P  |  A4M8P  |  A4M8P
+  5  Provider Org Name                       BUCKSHAW HOSPITAL  |  BUCKSHAW HOSPITAL  |  BUCKSHAW HOSPITAL  |  BUCKSHAW HOSPITAL  |  BUCKSHAW HOSPITAL
+  6  Commissioner Parent Org Code            NULL  |  NULL  |  NULL  |  NULL  |  NULL
+  7  Commissioner Parent Name                NULL  |  NULL  |  NULL  |  NULL  |  NULL
+  8  Commissioner Org Code                   13Q  |  13Q  |  13Q  |  13Q  |  13Q
+  9  Commissioner Org Name                   NATIONAL COMMISSIONING HUB 1  |  NATIONAL COMMISSIONING HUB 1  |  NATIONAL COMMISSIONING HUB 1  |  NATIONAL COMMISSIONING HUB 1  |  NATIONAL COMMISSIONING HUB 1
+ 10  RTT Part Type                           Part_2  |  Part_2  |  Part_2  |  Part_2A  |  Part_2A
+ 11  RTT Part Description                    Incomplete Pathways  |  Incomplete Pathways  |  Incomplete Pathways  |  Incomplete Pathways with DTA  |  Incomplete Pathways with DTA
+ 12  Treatment Function Code                 C_100  |  C_120  |  C_999  |  C_100  |  C_999
+ 13  Treatment Function Name                 General Surgery Service  |  Ear Nose and Throat Service  |  Total  |  General Surgery Service  |  Total
+ 14  Gt 00 To 01 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 15  Gt 01 To 02 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 16  Gt 02 To 03 Weeks SUM 1                 1  |  0  |  1  |  1  |  1
+ 17  Gt 03 To 04 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 18  Gt 04 To 05 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 19  Gt 05 To 06 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 20  Gt 06 To 07 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 21  Gt 07 To 08 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 22  Gt 08 To 09 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 23  Gt 09 To 10 Weeks SUM 1                 1  |  0  |  1  |  1  |  1
+ 24  Gt 10 To 11 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 25  Gt 11 To 12 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 26  Gt 12 To 13 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 27  Gt 13 To 14 Weeks SUM 1                 0  |  1  |  1  |  0  |  0
+ 28  Gt 14 To 15 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 29  Gt 15 To 16 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 30  Gt 16 To 17 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 31  Gt 17 To 18 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 32  Gt 18 To 19 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 33  Gt 19 To 20 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 34  Gt 20 To 21 Weeks SUM 1                 0  |  1  |  1  |  0  |  0
+ 35  Gt 21 To 22 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 36  Gt 22 To 23 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 37  Gt 23 To 24 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 38  Gt 24 To 25 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 39  Gt 25 To 26 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 40  Gt 26 To 27 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 41  Gt 27 To 28 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 42  Gt 28 To 29 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 43  Gt 29 To 30 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 44  Gt 30 To 31 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 45  Gt 31 To 32 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 46  Gt 32 To 33 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 47  Gt 33 To 34 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 48  Gt 34 To 35 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 49  Gt 35 To 36 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 50  Gt 36 To 37 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 51  Gt 37 To 38 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 52  Gt 38 To 39 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 53  Gt 39 To 40 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 54  Gt 40 To 41 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 55  Gt 41 To 42 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 56  Gt 42 To 43 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 57  Gt 43 To 44 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 58  Gt 44 To 45 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 59  Gt 45 To 46 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 60  Gt 46 To 47 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 61  Gt 47 To 48 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 62  Gt 48 To 49 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 63  Gt 49 To 50 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 64  Gt 50 To 51 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 65  Gt 51 To 52 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 66  Gt 52 To 53 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 67  Gt 53 To 54 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 68  Gt 54 To 55 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 69  Gt 55 To 56 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 70  Gt 56 To 57 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 71  Gt 57 To 58 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 72  Gt 58 To 59 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 73  Gt 59 To 60 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 74  Gt 60 To 61 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 75  Gt 61 To 62 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 76  Gt 62 To 63 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 77  Gt 63 To 64 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 78  Gt 64 To 65 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 79  Gt 65 To 66 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 80  Gt 66 To 67 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 81  Gt 67 To 68 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 82  Gt 68 To 69 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 83  Gt 69 To 70 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 84  Gt 70 To 71 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 85  Gt 71 To 72 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 86  Gt 72 To 73 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 87  Gt 73 To 74 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 88  Gt 74 To 75 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 89  Gt 75 To 76 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 90  Gt 76 To 77 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 91  Gt 77 To 78 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 92  Gt 78 To 79 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 93  Gt 79 To 80 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 94  Gt 80 To 81 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 95  Gt 81 To 82 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 96  Gt 82 To 83 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 97  Gt 83 To 84 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 98  Gt 84 To 85 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+ 99  Gt 85 To 86 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+100  Gt 86 To 87 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+101  Gt 87 To 88 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+102  Gt 88 To 89 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+103  Gt 89 To 90 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+104  Gt 90 To 91 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+105  Gt 91 To 92 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+106  Gt 92 To 93 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+107  Gt 93 To 94 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+108  Gt 94 To 95 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+109  Gt 95 To 96 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+110  Gt 96 To 97 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+111  Gt 97 To 98 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+112  Gt 98 To 99 Weeks SUM 1                 0  |  0  |  0  |  0  |  0
+113  Gt 99 To 100 Weeks SUM 1                0  |  0  |  0  |  0  |  0
+114  Gt 100 To 101 Weeks SUM 1               0  |  0  |  0  |  0  |  0
+115  Gt 101 To 102 Weeks SUM 1               0  |  0  |  0  |  0  |  0
+116  Gt 102 To 103 Weeks SUM 1               0  |  0  |  0  |  0  |  0
+117  Gt 103 To 104 Weeks SUM 1               0  |  0  |  0  |  0  |  0
+118  Gt 104 Weeks SUM 1                      0  |  0  |  0  |  0  |  0
+119  Total                                   NULL  |  NULL  |  NULL  |  NULL  |  NULL
+120  Patients with unknown clock start date  NULL  |  NULL  |  NULL  |  NULL  |  NULL
+121  Total All                               2  |  2  |  4  |  2  |  2
+122  filename                                data/interim/rtt/2023-09/20230930-RTT-September-2023-full-extract-revised.csv  |  data/interim/rtt/2023-09/20230930-RTT-September-2023-full-extract-revised.csv  |  data/interim/rtt/2023-09/20230930-RTT-September-2023-full-extract-revised.csv  |  data/interim/rtt/2023-09/20230930-RTT-September-2023-full-extract-revised.csv  |  data/interim/rtt/2023-09/20230930-RTT-September-2023-full-extract-revised.csv

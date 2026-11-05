@@ -15,3 +15,6 @@ __pycache__/
 .vscode/
 Thumbs.db
 .DS_Store
+
+# Local review output
+docs/sample_raw_rtt_full.txt
